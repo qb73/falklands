@@ -1,0 +1,255 @@
+/* CSS Document */
+
+/* Color Scheme
+Beige - #CFBCAB
+Olive Green - #747660
+Dark Green - #484733
+Gray - #A0A4A5
+Black - #1C1C24
+*/
+
+/* CSS Reset */
+
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+
+
+/* Header Styles */
+
+header {
+	padding: 75px 30px;
+}
+
+header, footer {
+	background-color: #CFBCAB; /* Beige */
+}
+
+h1, blockquote, h5 {
+	color: #484733; /* Dark Green */
+}
+
+h1, blockquote {
+	text-align: center;
+}
+
+h1 {
+	font-size: 5em;
+}
+
+blockquote {
+	font-size: 3em;
+}
+
+/* End of Header Styles */
+
+
+/* (Top) Navifation Styles */
+
+nav {
+	background-color: #747660; /* Olive Green */
+	text-align: center;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav a {
+	color: #484733; /* Dark Green */
+	background-color: #747660; /* Olive Green */
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #747660; /* Dark Green */
+	background-color: #484733; /* Green Day */
+}
+
+.topNav {
+	padding: 30px;
+}
+
+.topNav a {
+	padding: 30px;
+	text-align: center;
+	font-size: 1.85em;
+}
+
+/* End of (Top) Navigation Styles */
+
+
+/* Main Styles */
+
+main {
+	background-color: #1C1C24; /* Black */
+	padding: 90px 0px;
+}
+
+.image1 {
+	background-image: url("../images/home.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+}
+
+.image2 {
+	background-image: url("../images/invasion.jpeg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+}
+
+.image3 {
+	background-image:url("../images/milesAway2.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+}
+
+.image4 {
+	background-image: url("../images/aerial.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+}
+
+.image5 {
+	background-image: url("../images/ground.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: right;
+}
+
+.image6 {
+	background-image: url("../images/news.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: right;
+}
+
+h2, p, h4, .caption a {
+	color: #A0A4A5; /* Gray */
+	text-align: left;
+	padding: 6px;
+	margin-left: 40px;
+}
+
+h4 a {
+	color: #A0A4A5; /* Gray */
+	text-align: left;
+}
+
+h4 a:hover {
+	color: #CFBCAB; /* Beige */
+}
+
+.caption a:hover {
+	color: #CFBCAB; /* Beige */
+}
+
+.caption a {
+	font-size: 0.85em;
+}
+
+h2 {
+	font-size: 1.80em;
+}
+
+p {
+	margin-right: 800px;
+	font-size: 1.2em;
+}
+
+form {
+	color: white;
+	background-color: #CFBCAB; /* Beige */
+	width: 35.25%;
+	height: 387px;
+	padding: 50px;
+	border: 10px #484733 solid; /* Dark Green */
+	font-size: 1.25em;
+}
+
+input {
+	font-size: 1.1em; 
+	border-radius: 5px;
+	background-color: #A0A4A5; /* Gray */
+	color: white;
+}
+
+input[type=text] {
+	background-color: #A0A4A5; /* Gray */
+	width: 70%;
+}
+		
+input[type=email] {
+	background-color: #A0A4A5; /* Gray */
+	width: 98%;
+}
+
+input[type=submit] {
+	background-color: Red;
+	color: white;
+	padding: 3%;
+	margin: 10%;
+}
+
+input[type=submit]:hover {
+	background-color: #747660; /* Olive Green */
+	color: white;
+	padding: 3%;
+}
+input[type=reset] {
+	background-color: #2C3789;
+	color: white;
+	padding: 3%;
+}
+
+input[type=reset]:hover {
+	background-color: orange;
+	color: white;
+	padding: 3%;
+}
+
+/* End of Main Styles */
+
+
+/* Footer Styles */
+
+footer {
+	clear: both;
+}
+
+footer h5 {
+	padding: 15px 9px;
+	margin: 10px 400px 0px 400px;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+.botNav {
+	padding: 20px;
+}
+
+.botNav a {
+	padding: 20px;
+	text-align: center;
+	font-size: 1.65em;
+} 
+
+/* End of Footer Styles */
+
+
+
+/* Unused Tags */
+
+table {
+	
+}
